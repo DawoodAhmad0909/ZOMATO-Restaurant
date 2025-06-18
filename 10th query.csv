@@ -1,0 +1,2 @@
+order_id,table_id,customer_id,staff_id,order_date,status,total_amount,payment_status
+2,2,2,3,"2023-06-16 18:35:00","In Progress",68.95,"Partially Paid"

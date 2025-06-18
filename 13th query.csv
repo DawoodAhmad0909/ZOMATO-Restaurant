@@ -1,0 +1,4 @@
+item_id,item_name,category_id,description,price,preparation_time,is_vegetarian,is_available,quantity,special_requests
+1,Bruschetta,1,"Toasted bread topped with tomatoes, garlic and basil",8.99,10,1,NULL,2,"Extra garlic"
+3,"Grilled Salmon",2,"Fresh salmon fillet with lemon butter sauce",24.99,20,0,NULL,3,"One well done"
+5,"Chocolate Lava Cake",3,"Warm chocolate cake with molten center and vanilla ice cream",9.99,10,1,NULL,2,NULL

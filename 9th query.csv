@@ -1,0 +1,4 @@
+customer_id,first_name,last_name,phone,email,join_date,loyalty_points
+1,Robert,Wilson,555-0201,robert.w@email.com,2023-01-15,150
+3,James,Miller,555-0203,james.m@email.com,2023-03-10,200
+5,Daniel,Anderson,555-0205,daniel.a@email.com,2023-05-12,300

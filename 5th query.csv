@@ -1,0 +1,2 @@
+item_id,item_name,category_id,description,price,preparation_time,is_vegetarian,is_available,category_name
+1,Bruschetta,1,"Toasted bread topped with tomatoes, garlic and basil",8.99,10,1,NULL,Appetizers

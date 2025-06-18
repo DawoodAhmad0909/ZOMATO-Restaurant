@@ -1,0 +1,5 @@
+item_id,item_name,category_id,description,price,preparation_time,is_vegetarian,is_available
+1,Bruschetta,1,"Toasted bread topped with tomatoes, garlic and basil",8.99,10,1,NULL
+4,"Vegetable Pasta",2,"Penne pasta with seasonal vegetables in cream sauce",16.99,15,1,NULL
+5,"Chocolate Lava Cake",3,"Warm chocolate cake with molten center and vanilla ice cream",9.99,10,1,NULL
+6,"Iced Tea",4,"Freshly brewed iced tea with lemon",3.99,5,1,NULL
