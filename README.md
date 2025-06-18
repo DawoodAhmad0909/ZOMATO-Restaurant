@@ -1,6 +1,17 @@
 # ZOMATO Restaurant
 ## Overview 
+This project involves the design and implementation of a relational database system for a restaurant, named ZR_db. The database is structured to handle essential operations including staff management, menu organization, customer data, table reservations, order processing, and inventory control. Using SQL, the system ensures efficient data storage, integrity, and retrieval for daily business needs. The schema includes several interrelated tables such as Staff, Menu_items, Customers, Reservations, and Orders, all tailored to support real-world scenarios typically encountered in restaurant management.
 ## Objectives 
+#### 1. Database Design:
+To create a normalized and relational database structure suitable for managing all aspects of restaurant operations.
+#### 2. Data Integrity:
+To enforce data consistency using appropriate constraints, primary and foreign keys, and unique identifiers.
+#### 3. Efficient Querying:
+To write SQL queries that enable quick access to relevant information such as reservations, menu details, customer activity, and staff roles.
+#### 4. Operational Automation:
+To simulate real-world workflows including order tracking, customer management, and inventory monitoring.
+#### 5. Scalability & Extensibility:
+To design the database in a way that it can be extended with new features like online ordering, delivery tracking, or loyalty programs.
 ## Creating Database 
 ``` sql
 CREATE DATABASE ZR_db;
@@ -238,5 +249,8 @@ ON o.order_id=oi.order_id
 GROUP BY mi.item_id
 HAVING Total_Orders=0;
 ```
+## Conclusion
+The ZR_db restaurant management system successfully demonstrates a practical and scalable solution for handling the key components of restaurant operations. By using SQL and a well-structured relational design, the system ensures reliable storage, consistency, and ease of access to data. With real-world-inspired queries and comprehensive table relationships, the database serves as a foundational model for more advanced restaurant management systems. This project lays the groundwork for integrating more features in the future, such as analytics, reporting, or mobile-based ordering solutions.
+
 
 
